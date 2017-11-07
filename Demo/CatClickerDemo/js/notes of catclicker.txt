@@ -1,0 +1,6 @@
+Notes for catClickerVanila project: 
+
+	Issues: 
+	refresh changes the page display
+	the user input didn't change the html elements 
+	everytime refreshes or click save button, everything resets 

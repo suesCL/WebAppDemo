@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>catclicker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id='catlist'>cats' name list</div>
+
+    <div id='catdisplay'>
+      <h3 id = "catname"></h3>
+      <img id="catimage" src="">
+      <h3 id="numberOfClicks"></h3>
+    </div>
+
+    <div id='admin'>
+		<button id = "adminButton">admin</button>
+		<form id = form1>
+			<p>cat name :</p>
+			<input type:text name=catName>
+			<p>cat image url:</p>
+			<input type:text name=catUrl >
+			<p>cat's number of clicks:</p>
+			<input type:text name=num_clicks>
+			<button id = "cancelbutton">cancel</button>
+		    <button id = "savebutton">save</button>
+		</form>
+    </div>
+
+
+    <!-- <script src="js/libs/jquery.min.js"></script> -->
+    <script src="js/catClickerVanila.js"></script>
+</body>
+</html>
